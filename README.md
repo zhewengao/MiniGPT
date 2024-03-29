@@ -1,6 +1,6 @@
 # MiniGPT
 
-# This is a course project on Machine Learning, a Bayesian Perspective in TU Delft EE faculty.
+# This is a course project on Machine Learning, a Bayesian Perspective in TU Delft EE Signal & Systems.
 # The code is heavily referred from https://github.com/karpathy, and is permitted by the author to use in public.
 
 # Fine-Tuning file containes the code used to fine-tune the pre-trained model.
