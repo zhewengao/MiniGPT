@@ -55,7 +55,7 @@ Chinese text is slightly better than English, but challenges remain with the cha
 
 **Tokenizer Effect**
 Tokenizer introduced for better MiniGPT-generated text.
-Training time and token length varied by tokenizer.
+Training time and token length varied by the tokenizer.
 Larger dictionaries boosted accuracy but extended training.
 RegexTokenizer improved text quality over BasicTokenizer.
 2048-vocabulary RegexTokenizer yielded concise tokens, enhancing text quality.
