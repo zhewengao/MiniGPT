@@ -1,18 +1,18 @@
 # MiniGPT
 
 This is a course project on Machine Learning, a Bayesian Perspective in TU Delft EE Signal & Systems.
-The code is heavily referred from https://github.com/karpathy, and is permitted by the author to use in public.
+The code is heavily referred from https://github.com/karpathy, and some code pieces are permitted by the author to be used in public.
 
 ** Dataset: English text: "Tiny_Shakespeare" around 1M characters. 
           and "goods_zh" contains 13M comments on online shopping products.
 
-Fine-Tuning file containes the code used to fine-tune the pre-trained model.
+The fine-tuning file contains the code used to fine-tune the pre-trained model.
 
-Generated texts and images contains everythins used in the project.
+Generated texts and images contain everything used in the project.
 
 MiniGPT + Bigram file contains the code and description for both models.
 
-Tokenizer file contains regex and basic tokenizer pre-defined to use.
+The tokenizer file contains regex and a basic tokenizer pre-defined to use.
 
 
 # Project Description:
@@ -34,23 +34,23 @@ Test the model to evaluate its performance on unseen data.
 Document the process, architecture, and performance metrics.
 
 # Instructions to run the code
-To run the code, you need to make sure 'cuda' can be used on your computer since the LLM needs GPU to train.
+To run the code, you need to make sure 'cuda' can be used on your computer since the LLM needs a GPU to train.
 
 **What we did:**
-Implemented Bigram and MiniGPT models compared on English and Chinese text.
+Implemented Bigram and MiniGPT models compared to English and Chinese text.
 Bigram model produced poor text, while MiniGPT generated nonsensical text.
 Introduced BasicTokenizer and RegexTokenizer, with RegexTokenizer significantly improving text quality.
 Addressed underfitting and overfitting to enhance model generalization.
 Fine-tuned pre-trained GPT-2 model on English text, yielding satisfactory results.
 
 **Future development:**
-Future development focuses on adding cross-attention mechanism for diverse text tasks and conducting hyper-parameter search.
+Future development focuses on adding a cross-attention mechanism for diverse text tasks and conducting hyper-parameter searches.
 Investigating effective methods for evaluating text quality in future endeavors.
 
 **Model Performance: Bigram vs. MiniGPT**
 Bigram model: Decreasing losses, but incoherent text due to token-level approach.
-MiniGPT model: Achieved maximum generalization with improved coherence, thanks to attention mechanism.
-Chinese text slightly better than English, but challenges remain with character-level approach.
+MiniGPT model: Achieved maximum generalization with improved coherence, thanks to the attention mechanism.
+Chinese text is slightly better than English, but challenges remain with the character-level approach.
 
 
 **Tokenizer Effect**
