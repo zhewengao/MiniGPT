@@ -3,6 +3,9 @@
 This is a course project on Machine Learning, a Bayesian Perspective in TU Delft EE Signal & Systems.
 The code is heavily referred from https://github.com/karpathy, and is permitted by the author to use in public.
 
+** Dataset: English text: "Tiny_Shakespeare" around 1M characters. 
+          and "goods_zh" contains 13M comments on online shopping products.
+
 Fine-Tuning file containes the code used to fine-tune the pre-trained model.
 
 Generated texts and images contains everythins used in the project.
