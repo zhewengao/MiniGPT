@@ -12,7 +12,7 @@ MiniGPT + Bigram file contains the code and description for both models.
 Tokenizer file contains regex and basic tokenizer pre-defined to use.
 
 
-Project Description:
+# Project Description:
 
 Project 6: Build Your Mini-GPT
 
@@ -29,3 +29,32 @@ Validate the model’s performance on a separate dataset.
 Fine-tune the model on a chosen downstream task (optional)
 Test the model to evaluate its performance on unseen data.
 Document the process, architecture, and performance metrics.
+
+# Instructions to run the code
+To run the code, you need to make sure 'cuda' can be used on your computer since the LLM needs GPU to train.
+
+**What we did:**
+Implemented Bigram and MiniGPT models compared on English and Chinese text.
+Bigram model produced poor text, while MiniGPT generated nonsensical text.
+Introduced BasicTokenizer and RegexTokenizer, with RegexTokenizer significantly improving text quality.
+Addressed underfitting and overfitting to enhance model generalization.
+Fine-tuned pre-trained GPT-2 model on English text, yielding satisfactory results.
+
+**Future development:**
+Future development focuses on adding cross-attention mechanism for diverse text tasks and conducting hyper-parameter search.
+Investigating effective methods for evaluating text quality in future endeavors.
+
+**Model Performance: Bigram vs. MiniGPT**
+Bigram model: Decreasing losses, but incoherent text due to token-level approach.
+MiniGPT model: Achieved maximum generalization with improved coherence, thanks to attention mechanism.
+Chinese text slightly better than English, but challenges remain with character-level approach.
+
+
+**Tokenizer Effect**
+Tokenizer introduced for better MiniGPT-generated text.
+Training time and token length varied by tokenizer.
+Larger dictionaries boosted accuracy but extended training.
+RegexTokenizer improved text quality over BasicTokenizer.
+2048-vocabulary RegexTokenizer yielded concise tokens, enhancing text quality.
+
+
